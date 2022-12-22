@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body >
+    <div  class="incontainer">
+        <a href="choose.html"><img src="img/back.png" height="40px" class="backimg"></a><br><br><hr><br>
+        <form action="index.html" method="post">
+            <center>
+                <label id="animalList" ></label><br><br>
+                <input type="text" placeholder="Guess the word!" id="animal" class="box">
+                <input type="button" class="answerbtn" id="subbmit" value="Submit">
+                <input type="button" class="answerbtn" id="change" value="Change word" onclick="location.reload()">
+                <input type="button" class="answerbtn" id="answerA" value="Answer"><br><br>
+                <label id="correctA"></label><br><hr><br>
+                <label id="a">Time left:</label>
+                <label id="time"></label>
+                <br><br><hr> 
+                <label id="score"></label>
+            </center>
+        </form>
+    </div>
+   
+
+    <script src="animal.js"></script>
+</body>
+</html>

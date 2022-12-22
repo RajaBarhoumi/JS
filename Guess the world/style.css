@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(178, 207, 245);
+}
+/*.container{
+    background-color: rgb(138, 172, 215);
+    width: 300px;
+    padding:40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}*/
+.incontainer{
+    background: rgb(223, 118, 192);
+    width: 300px;
+    padding:40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #e197e3c7 ;
+}
+#image{
+    width: 150px;
+    padding:15px;
+    top: 59%;
+    left: 55%;
+    transform: translate(-60%,-60%);
+    position: absolute;
+    border-radius: 30px;
+}
+h1{
+    align-items: center;
+    text-align: center;
+    font-style:oblique;
+}
+
+.btn{
+    text-align: center;
+    height: 55px;
+    width: 150px;
+    color:black;
+    background-color: rgb(178, 207, 245);
+    border: 2px solid #bea1e6;
+    border-radius: 20px;
+    transition: 0.25s;
+    margin-top: 150px;
+}
+.btn:hover{
+    background: rgb(178, 207, 245);
+    color: rgb(233, 96, 176);
+    border: 2px solid #bea1e6;
+}
+.choosebtn{
+    text-align: center;
+    height: 55px;
+    width: 150px;
+    color:black;
+    background-color: rgb(178, 207, 245);
+    border: 2px solid #bea1e6;
+    border-radius: 20px;
+    transition: 0.25s;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+.backimg{
+    float: left;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.answerbtn{
+    text-align: center;
+    height: 45px;
+    width: 130px;
+    color:black;
+    background-color: rgb(178, 207, 245);
+    border: 2px solid #bea1e6;
+    border-radius: 20px;
+    transition: 0.25s;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.box{
+    height: 40px;
+    width: 280px;
+ 
+}
+
+
+
+/*
+answerA.addEventListener("click", () =>{
+    if(scoreAnimal<5){
+        checkAnswerA.innerHTML="Sorry! you haven't enough points."
+    }else if(scoreAnimal>=5){
+        checkAnswerA.innerHTML=correctAnimal;
+        scoreAnimal=scoreAnimal-5;
+    } });
+*/
